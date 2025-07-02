@@ -5,7 +5,7 @@ import pydantic as _pydantic
 import lib as _lib
 
 
-mcp = _fastmcp.FastMCP("Web Search MCP")
+mcp = _fastmcp.FastMCP("Web search tools")
 
 
 class SinglePageContentResponse(_pydantic.BaseModel):
